@@ -7,8 +7,6 @@
 - [기술 스택](#기술-스택)
 - [My Contribution](#my-contribution)
 - [빌드 방법](#빌드-방법)
-- [CI / Lint 설정](#ci--lint-설정)
-- [회고](#회고)
 
 ---
 
@@ -90,20 +88,4 @@ KBO 선수 조회, 경기 일정/스코어/문자중계, WebSocket 실시간 채
 - Android Studio 최신 버전 권장  
 - Gradle Sync 후 실행 가능  
 - minSdk 및 targetSdk는 프로젝트 gradle 설정 참조  
-
----
-
-# CI / Lint 설정
-
-- GitHub Actions 기반 기본 빌드 체크 적용 가능  
-- ktlint / detekt 설정을 통해 코드 일관성 유지 가능  
-(원하면 GitHub Actions YAML도 만들어줄 수 있습니다.)
-
----
-
-# 회고
-
-- 서버가 없는 환경에서 클라이언트만으로 샵 기능을 구축하며 상태 관리 및 데이터 흐름을 설계하는 경험을 함 
-- WebSocket 기반의 실시간 처리를 통해 비동기 이벤트 처리와 UI 업데이트 최적화에 대한 이해가 깊어짐 
-- 메타버스 공간을 구현하며 좌표 기반 이동 계산과 실시간 동기화의 복잡성을 해결하는 과정에서 많은 기술적 성장을 경험함
 
